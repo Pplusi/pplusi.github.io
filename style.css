@@ -1,1 +1,84 @@
-p {font-size: 50px;}
+:root {
+  --blue: #0d6efd;
+  --green: #00b7a1;
+  --gray: #6d757d;
+  --light: #dee2e6;
+  --dark: #212529;
+}
+
+@font-face {
+  font-weight: normal;
+  font-family: Onest;
+  src: url("./assets/fonts/OnestRegular.woff");
+}
+
+@font-face {
+  font-weight: 300;
+  font-family: Onest;
+  src: url("./assets/fonts/OnestLight.woff");
+}
+
+@font-face {
+  font-weight: 500;
+  font-family: Onest;
+  src: url("./assets/fonts/OnestMedium.woff");
+}
+
+@font-face {
+  font-weight: bold;
+  font-family: Onest;
+  src: url("./assets/fonts/OnestBold.woff");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  color: var(--dark);
+
+  font-size: 16px;
+  font-family: Onest, sans-serif;
+  line-height: 1.5;
+}
+
+body {
+  margin: 0;
+}
+
+
+.nav{
+  display:flex;
+
+  justify-content: space-between;
+  border-bottom: 1px solid var(--light);
+
+  
+}
+.nav ul {display: flex;
+  list-style: none;
+gap: 2rem;
+align-items: center;
+justify-content: space-between;
+padding: 0;}
+  .nav a {
+    color: gray;
+    text-decoration: none;
+  align-items: center;}
+
+    .gap-2 {
+      gap: 2rem;
+    }
+    .gap-1 {gap: 2rem;}
++
+.container {width: 1320px;
+  padding: 0 0.75rem;
+  margin: 0 auto;
+}
+
+.btn {display: block;
+padding: 0.4rem 0.7rem;
+border: 1px soid var(--dark);
+border-radius: 0.45rem;}
+
+.btn:hover {background-color:}

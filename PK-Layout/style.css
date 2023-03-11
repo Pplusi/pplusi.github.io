@@ -1,0 +1,187 @@
+:root {
+  --blue: #0d6efd;
+  --green: #00b7a1;
+  --gray: #6d757d;
+  --light: #dee2e6;
+  --dark: #212529;
+}
+
+@font-face {
+  font-weight: normal;
+  font-family: Onest;
+  src: url("./assets/fonts/OnestRegular.woff");
+}
+
+@font-face {
+  font-weight: 300;
+  font-family: Onest;
+  src: url("./assets/fonts/OnestLight.woff");
+}
+
+@font-face {
+  font-weight: 500;
+  font-family: Onest;
+  src: url("./assets/fonts/OnestMedium.woff");
+}
+
+@font-face {
+  font-weight: bold;
+  font-family: Onest;
+  src: url("./assets/fonts/OnestBold.woff");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  color: var(--dark);
+
+  font-size: 16px;
+  font-family: Onest, sans-serif;
+  line-height: 1.5;
+}
+
+body {
+  margin: 0;
+}
+
+
+
+.container {
+  width: 1320px;
+
+  margin: 0 auto;
+  padding: 0 0.75rem;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  
+}
+.row-2 {
+  display: flex;
+  justify-content: start;
+}
+
+
+/* NAV*/
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+
+  border-bottom: 1px solid var(--light);
+}
+.nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+  
+
+  list-style: none;
+  
+}
+
+.nav a {
+  color: var(--gray);
+
+  text-decoration: none;
+}
+
+/* BTN */
+
+.btn {
+  display: block;
+  padding: 0.4rem 0.7rem;
+
+  text-decoration: none;
+
+  border: 1px solid var(--gray);
+  border-radius: 0.45rem;
+}
+
+.btn-gray:hover {
+  background-color: var(--gray);
+  color: white;
+  }
+
+  .btn-blue {
+    background-color: #0d6efd;
+    
+    color: white;
+    border-color: #0d6efd;
+    display: inline;
+    
+  }
+  .btn-blue:hover {
+    background-color: darkcyan;
+    border-color: darkcyan;
+  }
+
+  .btn-lg {
+    font-size: 1.25rem;
+    padding: 0.5rem 1rem;
+  }
+
+/* Text */
+
+h1, h2 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.lead {
+  font-size: 1.3rem;
+  font-weight: 300;
+}
+
+/*Atomic CSS*/
+
+.gap-1 {
+  gap: 1rem;
+}
+
+.gap-2 {
+  gap: 2rem;
+}
+
+.gap-8 {
+  gap: 8rem;
+}
+
+.text-blue {
+  color: var(--blue);
+}
+
+.bg-dark {
+  background-color: var(--dark);
+}
+
+.text-white {
+  color: white;
+}
+
+.py-4 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.align-items-start {
+  align-items: start;
+}
+
+.bg-blue {
+  background-color: var(--blue);
+}
+
+head {
+  justify-content: space-around;
+}
+
+.imgr {
+  border-radius: 40px;
+}
